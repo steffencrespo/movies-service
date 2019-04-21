@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/movies', (req, res) => {
-  res.json(['one', 'two']);
+  res.json(['one', 'two', 'three']);
 });
 
 app.listen(3000, () => {
